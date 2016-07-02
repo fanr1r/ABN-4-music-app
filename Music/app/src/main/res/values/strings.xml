@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="now_playing">Actually playing</string>
+    <string name="channel_list">All channels for category</string>
+    <string name="search">Search</string>
+    <string name="channel_details">Details of channel</string>
+    <string name="browse">Browse</string>
+    <string name="description_activity_channel_list">You see a ListView with all the channels for this category. The ListView items have an ImageView for the channel icon and 2 TextViews, one with the channel name and one with the subtitle of the channel.</string>
+    <string name="description_activity_category_list">This activity shows categories of radio channels in a ListView with categories like \"just listened\", \"in vogue\", \"local station\" or \"sport\". The category list items have an icon (ImageView) and a descriptive text (TextView) to recognize them fast and easily.</string>
+    <string name="click_on_category">click on category</string>
+    <string name="go_to_search">go to search</string>
+    <string name="click_on_channel">click on channel</string>
+    <string name="go_back">go back</string>
+    <string name="description_search">In this activity you can search for radio channels and more. There is an EditText where you can enter a keyword. By pressing enter on your keyboard or on the button on the left to the EditText a ListView with search results is shown. The result list is divided by categories like \'Channel\' or \'Programm\' thanks to a HeaderView. The list items show the cannel icon with an ImageView and to the left of it 2 TextViews in a LinearLayout vertically oriented. Those TextViews show the entire String containing the search keyword and the other one shows the beginning of the details.</string>
+    <string name="play_channel">play channel</string>
+    <string name="description_channel_details">In a vertical LinearLayout there will be the image of the channel, the channel name, the number of users following this channel. Then there will be a button to follow the channel, a button to share the channel via an implicit Intent and an other one to play the channel. Then there will follow TextViews with details about the channel and the channels programm.</string>
+    <string name="description_now_playing">Opens a media player with help of the MediaPlayer API starting to play the chosen channel. With help of a Swipe View you can show similar channels, the last played and the channels you follow. At the bottom you see a SeekBar showing the progress of the running radio contribution. There are Buttons to pause and stop playing and even go forward or backward. If you leave this activity a BottomBar is shown in all other activities. The BottomBar contains a start/stop-playing Button that opens on click this activity.</string>
+    <string name="go_to_categories">go to browse</string>
+</resources>
